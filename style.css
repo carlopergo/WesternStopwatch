@@ -47,7 +47,25 @@ body
 .cloud div img{
     max-width: 100%;
     height:auto;
-    opacity: 25%;
+    opacity: 35%;
+}
+
+#cloud-2{
+    position: fixed;
+    top: 0;
+    left: -400px;
+    height: auto;
+    width: 150px;
+    animation: move 15s linear infinite;
+}
+
+#cloud-3{
+    position: fixed;
+    top: 10;
+    left: -300px;
+    height: auto;
+    width: 150px;
+    animation: move 20s linear infinite;
 }
 
 #horse-gif{
